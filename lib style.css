@@ -1,0 +1,172 @@
+/* Reset and basic styling */
+*{
+  box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header {
+    background-color: #f6f4f4;
+    padding: 10px 20px;
+    
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .logo {
+    font-family: Lucida Bright;
+    color: rgb(94, 28, 157);
+    font-weight: bold;
+    font-size:50px;
+    text-align: center;
+    margin-left: 5px;
+  }
+  
+  .search-bar input {
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1cm;
+    outline: none;
+  }
+  
+  .icons a {
+    margin-left: 20px;
+    font-size: 50px;
+  }
+  
+  .icons img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+  
+  .icons a:hover img {
+    opacity: 0.7;
+  }
+.search-container {
+    position: relative;
+}
+
+.search-icon {
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.search-bar {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 10px;
+    font-size: 16px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.search-bar.active {
+    display: block;
+}
+.main img{
+  height: 700px;
+  width:100%;
+}
+h3{
+  font-family: Avanta Garde;
+  font-weight: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+h5{
+  font-family: Corbel;
+  font-weight: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+.column img{
+  margin-left: 30px;
+  height: auto;
+  width: 35%;
+  margin-top: 50px;
+}
+.half img{
+ 
+  margin: 5px;
+}
+.half1 {
+  display: flex; /* Align images in a row */
+  justify-content: center; /* Center the images horizontally */
+  gap: 20px; /* Add space between the images */
+
+}
+.half1 img {
+  margin: 10px 0; /* Add space between images */
+  width: 500px;
+  height: auto;
+  margin-top: 50px;
+}
+.half2 {
+  display: flex; /* Align images in a row */
+  justify-content: center; /* Center the images horizontally */
+  gap: 20px; /* Add space between the images */
+
+}
+.half2 .a{
+  width:500px;
+  height: 300px;
+  margin: 10px 0;
+  margin-top: 50px;
+}
+.half3 {
+  display: flex; /* Align images in a row */
+  justify-content: center; /* Center the images horizontally */
+  gap: 20px; /* Add space between the images */
+
+}
+.half3 .b{
+  width:500px;
+  height: 300px;
+  margin:10px 0;
+  margin-top: 50px;
+}
+.text{
+  font-family: Avanta Garde;
+  font-weight: 100px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+button{
+  margin-left: 190px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: small;
+}
+.search-icon img{
+  width: 25px;
+  height: 25px;
+}
+

@@ -1,0 +1,133 @@
+/* Container to hold both navigation bars and content */
+.con {
+    display: flex;
+    flex-direction: column; /* To stack the navbar horizontally and vertically */
+ }
+ 
+ /* Horizontal Navbar styles */
+ head {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .logo {
+    font-family: Lucida Bright;
+    color: rgb(94, 28, 157);
+    font-weight: bold;
+    font-size:50px;
+    text-align: center;
+    margin-left: 5px;
+  }
+  
+  .search-bar input {
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1cm;
+    outline: none;
+  }
+  
+  .icons a {
+    margin-left: 20px;
+    font-size: 50px;
+  }
+  
+  .navbar .icons img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+  
+  .icons a:hover img {
+    opacity: 0.7;
+  }
+ .search-container {
+    position: relative;
+ }
+ 
+ .search-icon {
+    font-size: 35px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+ }
+ 
+ .search-bar {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 10px;
+    font-size: 16px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+ }
+ 
+ .search-bar.active {
+    display: block;
+ }
+ .search-icon img{
+  width: 25px;
+  height: 25px;
+ }
+ .navbar-vertical {
+    background-color: #f9f9f5; /* Dark background for the vertical navbar */
+    width: 200px; /* Set width of the vertical navbar */
+    height: 100vh; /* Full viewport height */
+    position: fixed; /* Fix the navbar to the left */
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.navbar-vertical .filter{
+    padding: 14px;
+    font-size: 15px;
+}
+.navbar-vertical ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-vertical ul li {
+    text-align: left;
+}
+
+.navbar-vertical ul li a {
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+    padding: 14px;
+    display: block;
+    font-size: 15px;
+}
+
+.navbar-vertical ul li a:hover {
+    background-color: #575757; /* Hover effect for vertical navbar links */
+}
+.navbar-vertical hr{
+    width: 198px;
+     color: gray
+} 
+
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 27rem);
+    gap:1.5rem;
+    justify-content: center;
+    margin-left: 180px;
+ }
